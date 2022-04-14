@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body{
+    background: -webkit-gradient(linear, left bottom, left top, from(#c77700), to(#884a03)) fixed;
+}
+
+#caixa { box-shadow: none; }
+
+.posição{
+    max-width: 400px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+section.caixa{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    max-width: 135px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.img-logo:hover{
+    border-color: rgb(253, 101, 0);
+}
+.img-logo{
+    border:1px solid white;
+    border-radius: 50%;
+    padding:3px;
+    transition: 1.10s;
+}
+
+.texto{
+    text-align: center;
+    color: white;
+    margin:10px 0;
+}
+
+.texto h2{
+    font-size: small;
+    font-weight: normal;
+}
+
+.texto p{
+    font-size: small;
+    font-weight: lighter;
+    color: #dfdfdf;
+}
+
+
+abbr { background-color: aliceblue;
+    color: #c77700;
+    text-decoration: none;}
+
+
+.rede {
+    width: 98%;
+    text-align: center;
+}
+
+.rede a{
+    color: white;
+    text-decoration: none;
+}
+
+.rede .rede-a:hover{
+    background: white;
+    color: #ff5e00;
+}
+
+.rede .rede-a{
+    position: relative;
+    border-radius: 30px;
+    border:1.5px solid rgba(255, 255, 255, 0.979);
+    padding: 10px;
+    margin:15px 0;
+    transition: 0.2s;
+}
+
+.rede .rede-a i{
+    position: absolute;
+    left: 20px;
+    line-height: 1;
+    font-size: 23px;
+}
+
+.rede .rede-a h3{
+    font-weight: normal;
+}
+
+footer { margin-top: 80px;}
+
+#foot p, a {color: #704300;
+            text-decoration: none;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;}
+
+#foot a:hover {color: white;
+                text-decoration: underline ;}
+
+
+
+
