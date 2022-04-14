@@ -47,7 +47,7 @@ section.caixa{
     border:1px solid white;
     border-radius: 50%;
     padding:3px;
-    transition: 1.10s;
+    transition: 0.3s;
 }
 
 .texto{
