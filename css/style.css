@@ -1,74 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
 
-body{ 
-    background-color: #c77700;
+body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#743e01), to(#a86704)) fixed;
 
 }
 
-#caixa { box-shadow: none; }
+#caixa {
+    box-shadow: none;
+}
 
-.posição{
+.posição {
     max-width: 400px;
     margin: 0 auto;
-    padding:0 2%;
+    padding: 0 2%;
 }
 
-section.caixa{
+section.caixa {
     margin-top: 50px;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.logo{
+.logo {
     width: 100%;
     max-width: 135px;
 }
 
-.logo img{
+.logo img {
     width: 100%;
     border-radius: 50%;
     vertical-align: middle;
 }
 
-.img-logo{
-    border:1px solid rgb(253, 101, 0);
+.img-logo {
+    border: 1px solid rgb(253, 101, 0);
     border-radius: 50%;
-    padding:3px;
+    padding: 3px;
     transition: 0.3s;
 }
 
-.texto{
+.texto {
     text-align: center;
     color: white;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
-.texto h2{
+.texto h2 {
     font-size: small;
     font-weight: normal;
 }
 
-.texto p{
+.texto p {
     font-size: small;
     font-weight: lighter;
     color: #dfdfdf;
 }
 
 
-abbr { background-color: aliceblue;
+abbr {
+    background-color: aliceblue;
     color: #c77700;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 
 .acessos {
@@ -76,45 +80,49 @@ abbr { background-color: aliceblue;
     text-align: center;
 }
 
-.acessos a{
+.acessos a {
     color: white;
     text-decoration: none;
 }
 
-.acessos .acessos1:hover{
+.acessos .acessos1:hover {
     background: white;
     color: #ff5e00;
 }
 
-.acessos .acessos1{
+.acessos .acessos1 {
     position: relative;
     border-radius: 30px;
-    border:1.5px solid rgba(255, 255, 255, 0.979);
+    border: 1.5px solid rgba(255, 255, 255, 0.979);
     padding: 10px;
-    margin:15px 0;
-    transition: 0.2s;}
+    margin: 15px 0;
+    transition: 0.2s;
+}
 
-.acessos .acessos1 i{
+.acessos .acessos1 i {
     position: absolute;
     left: 20px;
     line-height: 1;
     font-size: 23px;
 }
 
-.acessos .acessos1 h3{
+.acessos .acessos1 h3 {
     font-weight: normal;
 }
 
-footer { margin-top: 130px;}
+footer {
+    margin-top: 130px;
+}
 
-#foot p, a {color: #704300;
-            text-decoration: none;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;}
+#foot p,
+a {
+    color: #704300;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
 
-#foot a:hover {color: white;
-                text-decoration: underline ;}
-
-
-
-
+#foot a:hover {
+    color: white;
+    text-decoration: underline;
+}
