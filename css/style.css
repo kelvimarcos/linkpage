@@ -70,22 +70,22 @@ abbr { background-color: aliceblue;
     text-decoration: none;}
 
 
-.rede {
+.acessos {
     width: 98%;
     text-align: center;
 }
 
-.rede a{
+.acessos a{
     color: white;
     text-decoration: none;
 }
 
-.rede .rede-a:hover{
+.acessos .acessos1:hover{
     background: white;
     color: #ff5e00;
 }
 
-.rede .rede-a{
+.acessos .acessos1{
     position: relative;
     border-radius: 30px;
     border:1.5px solid rgba(255, 255, 255, 0.979);
@@ -93,14 +93,14 @@ abbr { background-color: aliceblue;
     margin:15px 0;
     transition: 0.2s;}
 
-.rede .rede-a i{
+.acessos .acessos1 i{
     position: absolute;
     left: 20px;
     line-height: 1;
     font-size: 23px;
 }
 
-.rede .rede-a h3{
+.acessos .acessos1 h3{
     font-weight: normal;
 }
 
