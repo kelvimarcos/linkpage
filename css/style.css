@@ -7,8 +7,8 @@
     font-family: 'Montserrat';
 }
 
-body{
-    background: -webkit-gradient(linear, left bottom, left top, from(#d17e02), to(#9b5506)) fixed;
+body{ 
+    background-color: rgb(77, 17, 17);
 }
 
 #caixa { box-shadow: none; }
