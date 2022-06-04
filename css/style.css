@@ -8,7 +8,7 @@
 }
 
 body{
-    background: -webkit-gradient(linear, left bottom, left top, from(#a06205), to(#633704)) fixed;
+    background: -webkit-gradient(linear, left bottom, left top, from(#d17e02), to(#9b5506)) fixed;
 }
 
 #caixa { box-shadow: none; }
@@ -91,8 +91,7 @@ abbr { background-color: aliceblue;
     border:1.5px solid rgba(255, 255, 255, 0.979);
     padding: 10px;
     margin:15px 0;
-    transition: 0.2s;
-}
+    transition: 0.2s;}
 
 .rede .rede-a i{
     position: absolute;
