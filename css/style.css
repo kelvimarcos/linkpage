@@ -106,6 +106,31 @@ abbr {
     font-size: 23px;
 }
 
+
+.acessos .acessos3:hover {
+    background: white;
+    color: #2f00ff;
+}
+
+
+.acessos .acessos3 {
+    position: relative;
+    border-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.979);
+    padding: 10px;
+    margin: 15px 0;
+    transition: 0.2s;
+}
+.acessos .acessos3 i {
+    position: absolute;
+    left: 20px;
+    line-height: 1;
+    font-size: 23px;
+}
+.acessos .acessos1 h3 {
+    font-weight: normal;
+}
+
 .acessos .acessos1 h3 {
     font-weight: normal;
 }
